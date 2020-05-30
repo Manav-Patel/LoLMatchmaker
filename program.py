@@ -9,11 +9,11 @@ def main():
     page = requests.get(URL)
     soup = BeautifulSoup(page.text, 'html.parser')
     
-    roughLP = soup.find_all(class_='LeaguePoints')   
-    roughRank = soup.find_all(class_='TierRank')
-    
-    print(roughRank)
-    print(roughLP)
+    roughRank = str(soup.find_all(class_='TierRank'))
+    roughLP = str(soup.find_all(class_='LeaguePoints'))
+
+    print(roughRank[23:29]) 
+    print(roughLP[33:36])
 
 
 #Runs the main function
