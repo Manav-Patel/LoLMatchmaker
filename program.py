@@ -42,6 +42,3 @@ if __name__ == "__main__":
 
 
 input('Press ENTER to exit')
-
-#TierRank
-#LeaguePoints
