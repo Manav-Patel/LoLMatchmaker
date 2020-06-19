@@ -1,2 +1,4 @@
 # LeagueOfLegends Matchmaker
-Practicing Python using the requests and BeautifulSoup modules to scrape the OP.GG webpage to find player ranks using the input in game names and using that rank data to sort players into teams.
+Practicing Python by creating a League of Legends matchmaker.
+matchmaker_webscaper.py uses requests and BeautifulSoup to get the player rank data through the OP.GG website.
+matchmakerAPI.py uses the Riot Games API to get the player rank data.
